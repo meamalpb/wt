@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.avatar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.flux {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+}
+
+.about{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 30, 32);
+
+}
+body {
+    background-color: #121212;
+    background-image: url(../images/5.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s1 {
+    width: 100%;
+    height: 100%;
+}
+
+.about {
+    font-size: 6em;
+    color: aliceblue;
+    position: absolute;
+    padding-left: 55px;
+}
+
+.sh {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.sd {
+    color: aliceblue;
+    align-items: center;
+    letter-spacing: .1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sd1 {
+    color: aliceblue;
+    align-items: center;
+    letter-spacing: .1em;
+    margin-bottom: 220px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: 65%;
+}
+
+.name {
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .2em;
+}
+
+.sline {
+    width: 500px;
+    height: 2px;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+    position: absolute;
+    margin-bottom: 500px;
+}
+
+span {
+    background-color: aliceblue !important;
+}

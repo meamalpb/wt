@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+body {
+  background-color: #121212;
+  background-image: url(../images/5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  background-color: aliceblue !important;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: kanit;
+  letter-spacing: 0.1em;
+  color: aliceblue;
+}
+
+.section {
+  opacity: 100%;
+}
+
+.avatar {
+  float: left;
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.avatar .i {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.avatar .name {
+  font-size: 30px;
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.avatar .icons {
+  height: 43px;
+  width: 43px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.avatar .desc {
+  color: aliceblue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 22px;
+  font-family: "Roboto", sans-serif;
+}
+
+.avatar .hh {
+  height: 2px;
+}
+
+.avatar .hh2 {
+  height: 5px;
+}
+
+.desc2 {
+  width: 50%;
+  font-family: kanit;
+  letter-spacing: 0.1em;
+  color: aliceblue;
+}
+
+.about {
+  float: right;
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .desc2 {
+  width: 50%;
+  font-family: kanit;
+  letter-spacing: 0.1em;
+  color: aliceblue;
+}
+
+.about .h {
+  height: 5em;
+}
+
+.skills {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills h1 {
+  margin-top: -35rem;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+nav .navbar-brand {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+nav .navbar-brand:hover {
+  color: coral !important;
+  font-weight: 500;
+}
+
+.container-table-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-top: -9rem;
+}
+
+.container-table-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-top: 2rem;
+}
+
+table {
+  font-family: kanit;
+  width: 800px;
+  border-collapse: collapse;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table img {
+  height: 50px;
+  width: 50px;
+}
+
+table td {
+  width: 5em;
+}
+
+table th,
+table td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  text-align: center !important;
+  position: relative;
+}
+
+table thead th {
+  background-color: #55608f;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.projects img {
+  height: 250px;
+}
+
+.projects .card1 {
+  float: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30rem;
+  margin-right: 150px;
+}
+
+.projects .card2 {
+  float: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30rem;
+}
+
+.contact h1 {
+  margin-left: 17em;
+}
+
+.contact form {
+  margin-top: -1em !important;
+  margin-left: 32em !important;
+  width: 600px;
+  margin: 8rem;
+}
+
+.contact form label {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .avatar {
+    width: 100%;
+  }
+  .about,
+  .logos,
+  .skills {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-top: 75%;
+  }
+  .h {
+    height: 200px;
+  }
+  .icons {
+    margin-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
